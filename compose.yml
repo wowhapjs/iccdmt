@@ -3,5 +3,10 @@ services:
     build: .
     container_name: iccdmt
     restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 8080
+      DATABASE_URL: ${DATABASE_URL}
+      SESSION_SECRET: ${SESSION_SECRET}
     ports:
-      - "127.0.0.1:31003:80"
+      - "127.0.0.1:31003:8080"

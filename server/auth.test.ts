@@ -1,0 +1,1 @@
+import test from'node:test';import assert from'node:assert/strict';import{passwordHash,passwordVerify}from'./auth.js';test('argon2id password roundtrip',async()=>{const h=await passwordHash('a-good-password');assert.match(h,/^\$argon2id\$/);assert.equal(await passwordVerify(h,'a-good-password'),true);assert.equal(await passwordVerify(h,'wrong-password'),false)})
