@@ -1,0 +1,9 @@
+services:
+  web:
+    image: nginx:alpine
+    container_name: iccdmt
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:31003:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
