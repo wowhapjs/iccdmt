@@ -1,6 +1,8 @@
 services:
   web:
-    build: .
+    build:
+      context: .
+    pull_policy: build
     container_name: iccdmt
     restart: unless-stopped
     network_mode: host
