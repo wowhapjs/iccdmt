@@ -1,0 +1,2 @@
+export type Config={port:number,databaseUrl:string,sessionSecret:string,secureCookies:boolean}
+export function loadConfig(env=process.env):Config{const databaseUrl=env.DATABASE_URL;const sessionSecret=env.SESSION_SECRET;if(!databaseUrl)throw new Error('DATABASE_URL is required');if(!sessionSecret||sessionSecret.length<32)throw new Error('SESSION_SECRET must be at least 32 characters');return{port:Number(env.PORT||8080),databaseUrl,sessionSecret,secureCookies:env.NODE_ENV==='production'}}
