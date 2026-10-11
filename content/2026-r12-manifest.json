@@ -4,10 +4,10 @@
   "showcase2026": {
     "source_file": "ICC_Digital_Media_Showcase_2026_Web_Rev12(2).zip",
     "source_sha256": "fe7e17e718577abd7680aeb4707f56625ca2a503924df1170a4b8c203ea8fe78",
-    "deployed_index_sha256": "e49d55db918bdd9a630a4f8614854ad751db8dd2cef20cb3f22a279490b369a0",
+    "deployed_index_sha256": "22cd8db161ce15b949756dd083a9033f4973d2febc992368e52cc0b327fc4500",
     "deployed_css_sha256": "9052d8ea5ceabe3b4de34cc49b646bb51424c5eaf50833b59361fe19f1923641",
     "deployed_files": 36,
-    "policy": "Original Rev12 package preserved; prior footer link and YouTube referrer fix remain. Mobile-only CSS now contains the Article/poster rail inside the viewport, forces Article content visible on narrow screens, and resizes/repositions WATCH TOGETHER so the title fits without right clipping."
+    "policy": "Original Rev12 package preserved; prior footer link and YouTube referrer fix remain. Mobile-only CSS now contains the Article/poster rail inside the viewport, forces Article content visible on narrow screens, and resizes/repositions WATCH TOGETHER so the title fits without right clipping. The stylesheet URL is versioned in index.html so mobile browsers fetch the fix immediately instead of reusing the prior one-hour cached CSS."
   },
   "tvproduction2026": {
     "source_file": "UCC_Video_Production_Living_Wiki_v12(2).zip",
