@@ -1,17 +1,18 @@
 {
-  "release": "r12-exact-20261011",
+  "release": "r12-youtube-crosslinks-20261011",
   "content_root": "/var/lib/web-manager/content/iccdmt/current",
   "showcase2026": {
     "source_file": "ICC_Digital_Media_Showcase_2026_Web_Rev12(2).zip",
     "source_sha256": "fe7e17e718577abd7680aeb4707f56625ca2a503924df1170a4b8c203ea8fe78",
+    "deployed_index_sha256": "e49d55db918bdd9a630a4f8614854ad751db8dd2cef20cb3f22a279490b369a0",
     "deployed_files": 36,
-    "policy": "Extracted package served unchanged."
+    "policy": "Original Rev12 package preserved; only a footer link to /tvproduction2026/ was added. YouTube playback is fixed at the server route by allowing strict-origin-when-cross-origin referrers."
   },
   "tvproduction2026": {
     "source_file": "UCC_Video_Production_Living_Wiki_v12(2).zip",
     "source_sha256": "028305c89ceac7fe78246362d4e3d72406a891546422479829700c05f902bdfb",
-    "deployed_index_sha256": "b8bac8ab531c5ae2da3fc168e41985534c3cab44415c50f6fa54b609d626b420",
+    "deployed_index_sha256": "fa5c30356f12eb71c2881d0d6609eb2e7920360885635b2062c12e7203a1cf43",
     "deployed_files": 8,
-    "policy": "Original index preserved except six broken Team A/B/C proposal/synopsis resource payload links now point to local resources/ files supplied by the user."
+    "policy": "Original v12 page preserved except the six previously repaired Team A/B/C proposal/synopsis links and one sidebar link to /showcase2026/. The server route also allows strict-origin-when-cross-origin referrers for embedded media."
   }
 }
