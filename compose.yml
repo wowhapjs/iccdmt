@@ -10,4 +10,7 @@ services:
     environment:
       NODE_ENV: production
       PORT: 31003
+      CONTENT_ROOT: /content/current
+    volumes:
+      - /var/lib/web-manager/content/iccdmt:/content:ro
     command: ["node", "dist-server/server/index.js"]
