@@ -1,0 +1,31 @@
+{
+  "release": "tvproduction-v14-20261011",
+  "content_root": "/var/lib/web-manager/content/iccdmt/current",
+  "showcase2026": {
+    "source_file": "ICC_Digital_Media_Showcase_2026_Web_Rev12(2).zip",
+    "source_sha256": "fe7e17e718577abd7680aeb4707f56625ca2a503924df1170a4b8c203ea8fe78",
+    "deployed_index_sha256": "22cd8db161ce15b949756dd083a9033f4973d2febc992368e52cc0b327fc4500",
+    "deployed_css_sha256": "9052d8ea5ceabe3b4de34cc49b646bb51424c5eaf50833b59361fe19f1923641",
+    "policy": "Unchanged from the prior mobile-layout-fix release."
+  },
+  "tvproduction2026": {
+    "source_file": "UCC_Video_Production_Living_Wiki_v14(1).zip",
+    "source_sha256": "ba7f002af5207cae66b0b88690739cc452b692742375bed200387c9c48a07fad",
+    "source_index_sha256": "f0d625d09484b49fa6841ed56ae208e6ad106100acf47da22d2aaf2ec434c7f9",
+    "deployed_index_sha256": "9043d05b505c58e409dd32a65c3c77455b9e710788cac4633a54738271b33dcd",
+    "team_resources": {
+      "A_From_Idea_to_Screen_Proposal.pdf": "0acc712c3294275355201be6d6d42df45dcb8a503186bd794d1d72ee60b2f355",
+      "A_Production_Process_Synopsis.pdf": "d1eea6ccf62d81218705adec686c224e7738e5b1095f98349d4b8fdf24ecbfcb",
+      "B_Glory_Academy_Proposal.docx": "6d6ce75f72ff510f6187a1ae846e2bcbad7adeef0c2e8eac9053168d91be5a82",
+      "B_Glory_Academy_Synopsis.docx": "c944a4314abca43d5369e9f16419f5ad273fcb84d43079c8165c28afe8355ea1",
+      "C_Exploring_Market_Life_Proposal.docx": "a631282afe0498f587250bc867268672f492ddbabe2537a9df3470bca31bb400",
+      "C_Exploring_Market_Life_Synopsis.docx": "66171cc5cc96e70a4bf4690757df9408bc4f069b39c410beac702e152df7022b"
+    },
+    "youtube_embed_ids": [
+      "Gxj4eDyNWGM",
+      "FElRjwAeiRw",
+      "VcaSFXHI0OA"
+    ],
+    "policy": "The supplied v14 package is the release baseline. Only four deployment adaptations are applied: mobile language/skin controls are consolidated into one settings dropdown; the six Team assignment links point to the previously held verified files; a Student Showcase 2026 sidebar link points to /showcase2026/; and the existing strict-origin-when-cross-origin route policy is retained for YouTube embeds."
+  }
+}
