@@ -1,0 +1,17 @@
+{
+  "release": "video-links-20261014",
+  "base_release": "tvproduction-v14-20261011",
+  "policy": "Only the two supplied team YouTube links were activated in Showcase 2026 and TV Production 2026. All other release files are byte-identical to the base release.",
+  "showcase2026": {
+    "previous_index_sha256": "22cd8db161ce15b949756dd083a9033f4973d2febc992368e52cc0b327fc4500",
+    "deployed_index_sha256": "c27ccec82ca061b97623e49d4cd5c1ddc48ce20852bd263159adb7520a47127c",
+    "local_market_team": "https://youtu.be/T7ggVLiKZhg?si=tC1E2O97GvkKuBOS",
+    "production_process_team": "https://www.youtube.com/watch?v=aiRb3bOx6OA"
+  },
+  "tvproduction2026": {
+    "previous_index_sha256": "9043d05b505c58e409dd32a65c3c77455b9e710788cac4633a54738271b33dcd",
+    "deployed_index_sha256": "d8c0a5e23aae5b95c3481acb6ce4a423915795969efed65f5f1337412e6580e4",
+    "team_c_local_market": "https://youtu.be/T7ggVLiKZhg?si=tC1E2O97GvkKuBOS",
+    "team_a_production_process": "https://www.youtube.com/watch?v=aiRb3bOx6OA"
+  }
+}
