@@ -1,0 +1,14 @@
+{
+  "release": "lecture12-showcase-videos-20261014",
+  "base_release": "video-links-20261014",
+  "policy": "Only the existing Team A and Team C YouTube works are added to the TV Production Day 12 Student Showcase body resources. All other content-release files are byte-identical to the base release.",
+  "tvproduction2026": {
+    "previous_index_sha256": "d8c0a5e23aae5b95c3481acb6ce4a423915795969efed65f5f1337412e6580e4",
+    "deployed_index_sha256": "34a236c2ebc9f49d244bfcf36eaf3a23c1aae5bbbd3680afcbbc8a750e139f0c",
+    "day12_showcase_resources": [
+      "https://www.youtube.com/watch?v=aiRb3bOx6OA",
+      "https://www.youtube.com/watch?v=VcaSFXHI0OA",
+      "https://youtu.be/T7ggVLiKZhg?si=tC1E2O97GvkKuBOS"
+    ]
+  }
+}
